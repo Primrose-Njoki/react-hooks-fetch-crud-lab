@@ -18,6 +18,7 @@ function QuestionForm({ onFormSubmit }) {
   }
 
   function handleSubmit(event) {
+    
     event.preventDefault();
     onFormSubmit(formData);
   }
