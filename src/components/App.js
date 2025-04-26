@@ -259,6 +259,7 @@ function App() {
       {page === "list" ? (
         <div>
           {questions.map((question) => (
+            
             <div key={question.id}>
               <h3>{question.prompt}</h3>
               <div>
