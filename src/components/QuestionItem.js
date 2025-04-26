@@ -22,6 +22,7 @@ function QuestionItem({ question, onDeleteQuestion, onUpdateQuestion }) {
             <option key={index} value={index}>
               {answer}
             </option>
+            
           ))}
         </select>
       </label>

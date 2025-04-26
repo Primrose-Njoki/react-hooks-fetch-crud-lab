@@ -11,6 +11,7 @@ function QuestionList({ questions, onDeleteQuestion, onUpdateQuestion }) {
             key={question.id}
             question={question}
             onDeleteQuestion={onDeleteQuestion}
+            
             onUpdateQuestion={onUpdateQuestion}
           />
         ))}

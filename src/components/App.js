@@ -283,6 +283,7 @@ function App() {
                   ))}
                 </select>
               </label>
+              
               <button onClick={() => handleDeleteQuestion(question.id)}>
                 Delete Question
               </button>
